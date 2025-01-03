@@ -16,9 +16,9 @@ return {
           winblend = 3,
         },
       }
-      vim.keymap.set('n', '<leader>th', '<cmd>ToggleTerm size=10 direction=horizontal<CR>', { noremap = true, silent = true, desc = 'Horizontal Terminal' })
-      vim.keymap.set('n', '<leader>tv', '<cmd>ToggleTerm size=40 direction=vertical<CR>', { noremap = true, silent = true, desc = 'Vertical Terminal' })
-      vim.keymap.set('n', '<leader>tf', '<cmd>ToggleTerm direction=float<CR>', { noremap = true, silent = true, desc = 'Floating Terminal' })
+      vim.keymap.set('n', '<leader>ts', '<cmd>ToggleTerm size=10 direction=horizontal<CR>', { noremap = true, silent = true, desc = 'Horizontal Terminal' })
+      -- vim.keymap.set('n', '<leader>tv', '<cmd>ToggleTerm size=40 direction=vertical<CR>', { noremap = true, silent = true, desc = 'Vertical Terminal' })
+      -- vim.keymap.set('n', '<leader>tf', '<cmd>ToggleTerm direction=float<CR>', { noremap = true, silent = true, desc = 'Floating Terminal' })
     end,
   },
 }
